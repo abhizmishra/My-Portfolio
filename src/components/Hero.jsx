@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/2nfianl.jpg";
 import { motion } from "framer-motion";
-import Background from "./Background";
+
 
 import "./Hero.css";
 
@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center items-end sm:items-center sm:mt-[50px] ml-10">
+        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center items-end sm:items-center sm:mt-[50px] ml-5">
           <motion.div className="">
             <div
               initial={{ x: 100, opacity: 0 }}
