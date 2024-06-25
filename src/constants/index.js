@@ -14,7 +14,6 @@ export const EXPERIENCES = [
     company: "Google Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    
   },
   {
     year: "2022 - 2023",
@@ -28,7 +27,7 @@ export const EXPERIENCES = [
     role: "Full Stack Developer",
     company: "Facebook",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["Javascript", "React.js", "Three.js", "Postgres"],
   },
   {
     year: "2020 - 2021",
@@ -46,17 +45,15 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    projectUrl:
-      "https://www.youtube.com/embed/HDcSDazyNY0",
+    projectUrl: "https://www.youtube.com/embed/HDcSDazyNY0",
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    projectv:
-      "  ",
+    technologies: ["HTML", "CSS", "React.js", "MongoDb"],
+    projectv: "  ",
   },
   {
     title: "Portfolio Website",
@@ -64,8 +61,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    projectv:
-      "  ",
+    projectv: "  ",
   },
   {
     title: "Blogging Platform",
@@ -73,8 +69,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
-    projectv:
-      "  ",
+    projectv: "  ",
   },
 ];
 
