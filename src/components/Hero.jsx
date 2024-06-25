@@ -52,7 +52,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className=" liquid_shape flex  justify-center items-center
+              className=" liquid_shape flex  justify-center items-end
           rounded-full
            
            h-[355px] w-[355px]"
