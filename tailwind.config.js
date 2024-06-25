@@ -4,6 +4,19 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtils }) {
+      const newUtils = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+        "no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtils(newUtils);
+    },
+  ],
 };
 
