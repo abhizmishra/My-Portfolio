@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 ">
+        <div className="w-full lg:w-1/2 lg:p-8 sm:scale-50 md:scale-75">
           <motion.div className="">
             <div
               initial={{ x: 100, opacity: 0 }}
@@ -61,7 +61,7 @@ const Hero = () => {
                 src={profilePic}
                 alt="AbhiMishra"
                 className="h-[350px]  w-[350px] 
-                sm:h-[250px]sm:w-[250px] md:h-[300px] md:w-[300px]
+               
                 brightness-75
                 rounded-full border-2 border-[#7F00FF] "
               />
