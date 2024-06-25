@@ -56,7 +56,7 @@ export const PROJECTS = [
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
     projectv:
-      "https://cdn.pixabay.com/video/2022/11/22/140111-774507949_large.mp4",
+      "  ",
   },
   {
     title: "Portfolio Website",
@@ -65,7 +65,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
     projectv:
-      "https://cdn.pixabay.com/video/2022/11/22/140111-774507949_large.mp4",
+      "  ",
   },
   {
     title: "Blogging Platform",
@@ -74,7 +74,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
     projectv:
-      "https://cdn.pixabay.com/video/2022/11/22/140111-774507949_large.mp4",
+      "  ",
   },
 ];
 
