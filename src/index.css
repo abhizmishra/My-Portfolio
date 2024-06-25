@@ -7,6 +7,10 @@
 :root {
   font-family: "Inter",sans-serif;
 }
+body {
+  height: full;
+  width: full;
+}
 
 body::-webkit-scrollbar{
 display: none;
