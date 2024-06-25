@@ -26,9 +26,7 @@ const Hero = () => {
               animate="visible"
               className=" pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl relative"
             >
-             
               ABhiƵMishra
-              
             </motion.h1>
 
             <motion.span
@@ -48,13 +46,13 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center  sm:items-center sm:mt-[50px]">
           <motion.div className="">
             <div
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className=" liquid_shape flex justify-center  
+              className=" liquid_shape flex  justify-center items-center
           rounded-full
            
            h-[355px] w-[355px]"
