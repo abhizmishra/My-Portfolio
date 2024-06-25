@@ -46,13 +46,13 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center  sm:items-center sm:mt-[50px]">
+        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center items-end sm:items-center sm:mt-[50px]">
           <motion.div className="">
             <div
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className=" liquid_shape flex  justify-center items-end
+              className=" liquid_shape flex  justify-center 
           rounded-full
            
            h-[355px] w-[355px]"
