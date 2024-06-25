@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 sm:justify-center items-end sm:items-center sm:mt-[50px] ml-5">
+        <div className="w-full lg:w-1/2 lg:p-8 ">
           <motion.div className="">
             <div
               initial={{ x: 100, opacity: 0 }}
