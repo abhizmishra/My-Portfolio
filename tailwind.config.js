@@ -10,7 +10,7 @@ export default {
         ".no-scrollbar::-webkit-scrollbar": {
           display: "none",
         },
-        "no-scrollbar": {
+        ".no-scrollbar": {
           "-ms-overflow-style": "none",
           "scrollbar-width": "none",
         },
