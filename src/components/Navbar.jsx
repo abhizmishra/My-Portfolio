@@ -8,7 +8,7 @@ import "./Hero.css"
 const Navbar = () => {
   return (
     <>
-      <nav className="mb-20 flex items-center justify-between py-6">
+      <nav className="mb-20 flex items-center justify-between py-6 ">
         <div className="flex flex-shrink-0 items-center  ">
           <img
             className="hover:scale-110  mx-2 mt-3.2 w-[70px] h-[70px]"
