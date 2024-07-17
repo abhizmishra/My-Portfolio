@@ -30,18 +30,3 @@
 }
 
 
-.type{
-  display: inline-block;
-
-}
-.typed-out{
-  overflow: hidden;
- white-space: nowrap;
- animation: typing 1.5s steps(18,end) forwards;
- 
-
-}
-@keyframes typing {
-  from{width: 0;}
-  to{width: 100%;}
-}

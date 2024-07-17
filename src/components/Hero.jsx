@@ -25,7 +25,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-                className=" typed-out pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl relative  border-r-[2px] border-solid border-white"
+                className="  pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl relative  "
               >
                 ABhiƵMishra
               </motion.h1>
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8  ">
-          <motion.div className="pt-5 sm:pt-0 flex flex-wrap justify-evenly sm:justify-end ">
+          <motion.div className="pt-5 sm:pt-0 flex flex-wrap  justify-evenly sm:justify-end ">
             <div
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -58,7 +58,7 @@ const Hero = () => {
               className=" liquid_shape flex  justify-center 
           rounded-full 
            
-         h-[250px] w-[250px] sm:h-[355px] sm:w-[355px] md:scale-95"
+         h-[250px] w-[250px]  sm:h-[355px] sm:w-[355px] md:scale-95"
             >
               <img
                 src={profilePic}
@@ -66,7 +66,7 @@ const Hero = () => {
                 className="
                
                 brightness-75
-                rounded-full border-2 border-[#7F00FF] "
+                rounded-full border-[1.5x] border-[#7F00FF] "
               />
             </div>
           </motion.div>
