@@ -24,6 +24,14 @@ const Navbar = () => {
           >
             <FaLinkedin />
           </a>
+
+          <a
+            target="_blank"
+            className="hover:scale-150"
+            href="https://github.com/abhizmishra"
+          >
+            <FaGithub />
+          </a>
           <a
             target="_blank"
             className="hover:scale-150"
@@ -38,13 +46,6 @@ const Navbar = () => {
           >
             {" "}
             <FaSquareXTwitter />
-          </a>
-          <a
-            target="_blank"
-            className="hover:scale-150"
-            href="https://github.com/abhizmishra"
-          >
-            <FaGithub />
           </a>
         </div>
 
