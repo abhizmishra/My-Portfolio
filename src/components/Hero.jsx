@@ -63,8 +63,9 @@ const Hero = () => {
               <img
                 src={profilePic}
                 alt="AbhiMishra"
+              
                 className="
-               
+              hover:scale-125 duration-300
                 brightness-75
                 rounded-full border-[1.5x] border-[#7F00FF] "
               />

@@ -21,7 +21,7 @@ const About = () => {
               className="rounded-2xl h-[350px] w-[260px] brightness-75 border-r-4 
               border-b-[2px]
               border-l-4 border-indigo-500 
-             
+             hover:-translate-y-3 duration-300 hover:scale-105
               "
               src={aboutImg}
               

@@ -16,7 +16,7 @@ const Navbar = () => {
             alt="logo"
           />
         </div>
-        <div className="  flex items-center justify-center gap-4 text-2xl  m-8 hover:bg-gradient-to-r from-pink-700 via-slate-900 to-purple-500 hover:border hover:px-2 hover:rounded-lg ">
+        <div className=" hover:scale-125 flex items-center justify-center gap-4 text-2xl  m-8 hover:bg-gradient-to-r from-pink-700 via-slate-900 to-purple-500 hover:border hover:px-2 hover:rounded-lg ">
           <a
             target="_blank"
             className="hover:scale-150"

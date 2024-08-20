@@ -16,7 +16,8 @@ const Projects = () => {
   const onMouseOut = () => { 
     setisActive(false)
     return;
-   }
+  }
+  
  
 
 
@@ -50,9 +51,10 @@ const Projects = () => {
                       height={150}
                       src={project.image}
                       alt={project.title}
+                     
                       onMouseEnter={onMosueEnter}
                       onMouseOut={onMouseOut}
-                      className="mb-6 hover:border-2 hover:border-indigo-700 rounded hover:scale-125 "
+                      className="mb-6 hover:border-2 hover:border-indigo-700 rounded hover:scale-125 duration-300 "
                     />
                   </a>
                 </div>
