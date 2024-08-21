@@ -31,12 +31,13 @@ const Contact = () => {
         >
           {`📱${CONTACT.phoneNo}`}
         </motion.p>
-        <motion.div
+        <motion.div 
+          className="hover:text-blue-800"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
         >
-          <a href="">{`✉  ${CONTACT.email}`}</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sonusamda@gmail.com&su=&body=BODY&bcc=">{`✉  ${CONTACT.email}`}</a>
         </motion.div>
       </div>
     </div>
