@@ -23,8 +23,7 @@ const About = () => {
               border-l-4 border-indigo-500 
              hover:-translate-y-3 duration-300 hover:scale-105
               "
-              src={aboutImg}
-              
+              src="https://res.cloudinary.com/dtz70zyel/image/upload/v1726282910/abhiMishraAbout_drvkrq.png"
               alt="about"
             />
           </div>

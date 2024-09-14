@@ -61,9 +61,8 @@ const Hero = () => {
          h-[250px] w-[250px]  sm:h-[355px] sm:w-[355px] md:scale-95"
             >
               <img
-                src={profilePic}
+                src="https://res.cloudinary.com/dtz70zyel/image/upload/v1726282963/2nfianl_fgppjf.jpg"
                 alt="AbhiMishra"
-              
                 className="
               hover:scale-125 duration-300
                 brightness-75
