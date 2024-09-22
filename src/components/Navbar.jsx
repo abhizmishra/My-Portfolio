@@ -49,7 +49,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className=" mt-[50px]  scale-50 end-[180px] absolute ">
+        <div className=" invisible md:visible mt-[50px]  scale-50 end-[180px] absolute ">
           <Background>
             <div
               className=" absolute liquid_shape flex justify-center rounded-full h-[355px]
